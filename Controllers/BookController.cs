@@ -4,6 +4,7 @@ using RepositioryPattern.Repository.Interfaces;
 
 namespace RepositioryPattern.Controllers
 {
+    //To call API write = https://localhost:7016/api/book
     [Route("api/[controller]")]
     [ApiController]
     public class BookController : Controller
